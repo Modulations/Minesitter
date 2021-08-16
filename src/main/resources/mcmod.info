@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "lunarsway",
+  "name": "Lunar Sway",
+  "description": "Adds Prospit, Derse, and other oddities.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["Hertz / Hashbeep / Modulations"],
+  "credits": "Cibernet for being a hardcore gamer",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

@@ -1,4 +1,4 @@
-package com.hertz.mineshitter;
+package com.hertz.lunarsway;
 
 import com.hertz.proxy.CommonProxy;
 import net.minecraft.init.Blocks;

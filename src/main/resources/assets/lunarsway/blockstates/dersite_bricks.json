@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "lunarsway:dersite_bricks" }
+    "normal": { "model": "lunarsway:dersite_bricks" }
   }
 }

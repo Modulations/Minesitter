@@ -32,7 +32,7 @@ public class RegistryHandler {
         }
     }
 
-    public static void initRegstries() {
+    public static void initRegistries() {
         Main.proxy.render();
     }
 }

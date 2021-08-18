@@ -1,5 +1,5 @@
 # Items
-item.dersite_brick.name = "Dersite Brick"
+item.dersite_brick.name=Dersite Brick
 
 # Blocks
-tile.dersite_bricks.name = "Dersite Bricks"
+tile.dersite_bricks.name=Dersite Bricks

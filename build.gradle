@@ -10,6 +10,7 @@ buildscript {
 }
 plugins {
     id 'wtf.gofancy.fancygradle' version '1.+'
+    id 'idea'
 }
 
 apply plugin: 'net.minecraftforge.gradle'
@@ -17,6 +18,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 apply plugin: 'wtf.gofancy.fancygradle'
+idea.module.inheritOutputDirs = true
 import wtf.gofancy.fancygradle.patch.Patch
 
 fancyGradle {

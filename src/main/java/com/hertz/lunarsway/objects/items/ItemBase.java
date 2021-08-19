@@ -5,9 +5,9 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
 public class ItemBase extends Item {
-    public ItemBase(String regName, String unlocName) {
-        this.setRegistryName(regName);
-        this.setUnlocalizedName(unlocName);
+    public ItemBase(String name) {
+        this.setRegistryName(name);
+        this.setUnlocalizedName(name);
         this.setCreativeTab(CreativeTabs.MATERIALS);
 
         ItemInit.ITEMS.add(this);

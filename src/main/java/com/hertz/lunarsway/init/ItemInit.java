@@ -1,6 +1,6 @@
-package com.hertz.init;
+package com.hertz.lunarsway.init;
 
-import com.hertz.objects.items.ItemBase;
+import com.hertz.lunarsway.objects.items.ItemBase;
 import net.minecraft.item.Item;
 
 import java.util.ArrayList;

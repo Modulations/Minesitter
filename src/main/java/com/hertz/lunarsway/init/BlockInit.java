@@ -1,6 +1,6 @@
-package com.hertz.init;
+package com.hertz.lunarsway.init;
 
-import com.hertz.objects.blocks.BlockBase;
+import com.hertz.lunarsway.objects.blocks.BlockBase;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 

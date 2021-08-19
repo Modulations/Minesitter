@@ -1,4 +1,4 @@
-package com.hertz.proxy;
+package com.hertz.lunarsway.proxy;
 
 import net.minecraft.item.Item;
 

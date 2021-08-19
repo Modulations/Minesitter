@@ -1,7 +1,7 @@
-package com.hertz.objects.blocks;
+package com.hertz.lunarsway.objects.blocks;
 
-import com.hertz.init.BlockInit;
-import com.hertz.init.ItemInit;
+import com.hertz.lunarsway.init.BlockInit;
+import com.hertz.lunarsway.init.ItemInit;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;

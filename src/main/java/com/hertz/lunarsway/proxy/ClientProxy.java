@@ -1,4 +1,4 @@
-package com.hertz.proxy;
+package com.hertz.lunarsway.proxy;
 
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;

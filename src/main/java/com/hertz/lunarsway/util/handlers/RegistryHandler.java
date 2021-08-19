@@ -1,7 +1,7 @@
-package com.hertz.util.handlers;
+package com.hertz.lunarsway.util.handlers;
 
-import com.hertz.init.BlockInit;
-import com.hertz.init.ItemInit;
+import com.hertz.lunarsway.init.BlockInit;
+import com.hertz.lunarsway.init.ItemInit;
 import com.hertz.lunarsway.Main;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;

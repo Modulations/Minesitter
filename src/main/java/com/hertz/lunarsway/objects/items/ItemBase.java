@@ -1,6 +1,6 @@
-package com.hertz.objects.items;
+package com.hertz.lunarsway.objects.items;
 
-import com.hertz.init.ItemInit;
+import com.hertz.lunarsway.init.ItemInit;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 

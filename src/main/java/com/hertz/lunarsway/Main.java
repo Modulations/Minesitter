@@ -1,6 +1,6 @@
 package com.hertz.lunarsway;
 
-import com.hertz.proxy.CommonProxy;
+import com.hertz.lunarsway.proxy.CommonProxy;
 import net.minecraft.init.Blocks;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -9,7 +9,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.Logger;
-import com.hertz.util.Reference;
+import com.hertz.lunarsway.util.Reference;
 
 @Mod(modid = Reference.MODID, name = Reference.NAME, version = Reference.VERSION)
 public class Main

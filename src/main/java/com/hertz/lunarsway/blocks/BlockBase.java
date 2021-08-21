@@ -1,10 +1,10 @@
-package com.hertz.lunarsway.objects.blocks;
+package com.hertz.lunarsway.blocks;
 
+import com.hertz.lunarsway.TabLunarSway;
 import com.hertz.lunarsway.init.BlockInit;
 import com.hertz.lunarsway.init.ItemInit;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemBlock;
 
 public class BlockBase extends Block {
@@ -12,7 +12,7 @@ public class BlockBase extends Block {
         super(material);
         setRegistryName(name);
         setUnlocalizedName(name);
-        setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+        setCreativeTab(TabLunarSway.instance);
 
         BlockInit.BLOCKS.add(this);
         ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(name));

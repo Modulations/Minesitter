@@ -12,12 +12,12 @@ import org.apache.logging.log4j.Logger;
 import com.hertz.lunarsway.util.Reference;
 
 @Mod(modid = Reference.MODID, name = Reference.NAME, version = Reference.VERSION)
-public class Main
+public class LunarSway
 {
     private static Logger logger;
 
     @Mod.Instance
-    public static Main instance;
+    public static LunarSway instance;
 
     @SidedProxy(clientSide = Reference.CLIENT, serverSide = Reference.COMMON)
     public static CommonProxy proxy;

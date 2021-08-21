@@ -1,8 +1,8 @@
 package com.hertz.lunarsway.util.handlers;
 
+import com.hertz.lunarsway.LunarSway;
 import com.hertz.lunarsway.init.BlockInit;
 import com.hertz.lunarsway.init.ItemInit;
-import com.hertz.lunarsway.Main;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
@@ -25,14 +25,14 @@ public class RegistryHandler {
     @SubscribeEvent
     public static void onModelRegister(ModelRegistryEvent event) {
         for (Item item : ItemInit.ITEMS) {
-            Main.proxy.registerItemRenderer(item, 0, "inventory");
+            LunarSway.proxy.registerItemRenderer(item, 0, "inventory");
         }
         for (Block block : BlockInit.BLOCKS) {
-            Main.proxy.registerItemRenderer(Item.getItemFromBlock(block), 0, "inventory");
+            LunarSway.proxy.registerItemRenderer(Item.getItemFromBlock(block), 0, "inventory");
         }
     }
 
     public static void initRegistries() {
-        Main.proxy.render();
+        LunarSway.proxy.render();
     }
 }

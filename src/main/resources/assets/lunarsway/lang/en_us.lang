@@ -1,5 +1,23 @@
 # Items
 item.dersite_brick.name=Dersite Brick
+item.prospitian_brick.name=Prospitian Brick
+item.queen_ring.name=Queen's Ring
+item.white_scepter.name=White King's Scepter
+item.black_scepter.name=Black King's Scepter
+item.white_crown.name=White Crown
+item.black_crown.name=Black Crown
 
 # Blocks
 tile.dersite_bricks.name=Dersite Bricks
+tile.prospitian_bricks.name=Prospitian Bricks
+
+# Armors
+item.chestplate_prospit.name=Prospitian Shirt
+item.leggings_prospit.name=Prospitian Pants
+item.boots_prospit.name=Prospitian Shoes
+item.chestplate_derse.name=Dersite Shirt
+item.leggings_derse.name=Dersite Pants
+item.boots_derse.name=Dersite Shoes
+
+# Other
+itemGroup.tabLunarSway=Lunar Sway

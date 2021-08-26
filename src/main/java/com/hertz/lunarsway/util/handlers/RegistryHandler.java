@@ -14,16 +14,19 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 public class RegistryHandler {
     @SubscribeEvent
     public static void onItemRegister(RegistryEvent.Register<Item> event) {
+        // register all items in that array
         event.getRegistry().registerAll(ItemInit.ITEMS.toArray(new Item[0]));
     }
 
     @SubscribeEvent
     public static void onBlockRegister(RegistryEvent.Register<Block> event) {
+        // register all blocks in that array
         event.getRegistry().registerAll(BlockInit.BLOCKS.toArray(new Block[0]));
     }
 
     @SubscribeEvent
     public static void onModelRegister(ModelRegistryEvent event) {
+        // shrug
         for (Item item : ItemInit.ITEMS) {
             LunarSway.proxy.registerItemRenderer(item, 0, "inventory");
         }

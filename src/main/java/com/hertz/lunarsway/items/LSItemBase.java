@@ -6,16 +6,6 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
 public class LSItemBase extends Item {
-    protected boolean unbreakable;
-    protected double weaponDamage;
-    protected int enchantability;
-    protected double weaponSpeed;
-    protected ToolMaterial material;
-    ItemStack repairMaterial = ItemStack.EMPTY;
-
-    protected float harvestSpeed = 0;
-    protected int harvestLevel = 0;
-
     public LSItemBase(String name) {
         this.setRegistryName(name);
         this.setUnlocalizedName(name);

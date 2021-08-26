@@ -3,6 +3,7 @@ package com.hertz.lunarsway.init;
 import com.hertz.lunarsway.armor.LSArmorBase;
 import com.hertz.lunarsway.items.ItemScepter;
 import com.hertz.lunarsway.items.LSItemBase;
+import com.hertz.lunarsway.items.LSWeaponBase;
 import com.hertz.lunarsway.util.Reference;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
@@ -25,8 +26,8 @@ public class ItemInit {
 
     // Royalty Items
     public static final Item QUEEN_RING = new LSItemBase("queen_ring");
-    public static final Item WHITE_SCEPTER = new ItemScepter("white_scepter");
-    public static final Item BLACK_SCEPTER = new ItemScepter("black_scepter");
+    public static final Item WHITE_SCEPTER = new LSWeaponBase(1200, 1D, 1, 20, "white_scepter");
+    public static final Item BLACK_SCEPTER = new LSWeaponBase(1200, 1D, 1, 20, "black_scepter");
 
     // Armor
     public static final Item WHITE_CROWN = new LSArmorBase("white_crown", materialWhiteRoyals, 1, EntityEquipmentSlot.HEAD);
@@ -41,6 +42,6 @@ public class ItemInit {
     public static final Item BOOTS_DERSE = new LSArmorBase("boots_derse", materialDerse, 1, EntityEquipmentSlot.FEET);
 
     // Other
-    public static final Item DERSITE_BRICK = new LSItemBase("dersite_brick");
-    public static final Item PROSPITIAN_BRICK = new LSItemBase("prospitian_brick");
+    public static final Item DERSE_BRICK = new LSItemBase("derse_brick");
+    public static final Item PROSPIT_BRICK = new LSItemBase("prospit_brick");
 }

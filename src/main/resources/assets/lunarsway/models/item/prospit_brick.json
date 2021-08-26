@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "lunarsway:items/prospitian_brick"
+    "layer0": "lunarsway:items/prospit_brick"
   }
 }

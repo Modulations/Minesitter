@@ -1,6 +1,6 @@
 # Items
-item.dersite_brick.name=Dersite Brick
-item.prospitian_brick.name=Prospitian Brick
+item.prospit_brick.name=Prospitian Brick
+item.derse_brick.name=Dersite Brick
 item.queen_ring.name=Queen's Ring
 item.white_scepter.name=White King's Scepter
 item.black_scepter.name=Black King's Scepter
@@ -8,8 +8,10 @@ item.white_crown.name=White Crown
 item.black_crown.name=Black Crown
 
 # Blocks
-tile.dersite_bricks.name=Dersite Bricks
-tile.prospitian_bricks.name=Prospitian Bricks
+tile.prospit_bricks.name=Prospitian Bricks
+tile.prospit_stairs.name=Prospitian Stairs
+tile.derse_bricks.name=Dersite Bricks
+tile.derse_stairs.name=Dersite Stairs
 
 # Armors
 item.chestplate_prospit.name=Prospitian Shirt

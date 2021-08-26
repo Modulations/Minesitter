@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "lunarsway:blocks/prospit_bricks",
+    "top": "lunarsway:blocks/prospit_bricks",
+    "side": "lunarsway:blocks/prospit_bricks"
+  }
+}
